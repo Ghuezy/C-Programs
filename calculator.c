@@ -5,12 +5,9 @@ int main(){
     float num1,num2,result;
     char opt;
     
-    printf("Enter the first number: ");
-    scanf("%f",&num1);
-    printf("Enter the operator: ");
-    scanf("%s",&opt);
-    printf("Enter the second number: ");
-    scanf("%f",&num2);
+    printf("Enter the calculation: ");
+    scanf("%f %s %f",&num1,&opt,&num2);
+    
 
     if(opt == '+'){
         result = num1 + num2;
