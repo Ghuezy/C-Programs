@@ -32,7 +32,7 @@ int main(){
         printf("Result is: %.2f", result);
     }
 
-    printf("Press a button to exit.");
+    printf("Press a key to exit.");
     getch();
     return 0;
 }
