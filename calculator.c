@@ -23,8 +23,6 @@ int main(){
         if(opt == 0){
             printf("You can't enter 0,please enter an another number. ");
             scanf("%f",&num2);
-            result = num1 / num2;
-            printf("Result is: %.2f", result);
         }
         else{
             result = num1 / num2;
