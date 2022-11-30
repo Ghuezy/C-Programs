@@ -4,7 +4,7 @@
 int main(){
     float num1,num2,result;
     char opt;
-
+    
     printf("Enter the first number: ");
     scanf("%f",&num1);
     printf("Enter the operator: ");
@@ -32,6 +32,7 @@ int main(){
         printf("Result is: %.2f", result);
     }
 
+    printf("Press a button to exit.");
     getch();
     return 0;
 }
