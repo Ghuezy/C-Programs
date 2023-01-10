@@ -29,6 +29,7 @@ int main(){
         else{
             result = num1 / num2;
             printf("Result is: %.2f", result);
+            
         }
     }
     else if (opt == '*')
